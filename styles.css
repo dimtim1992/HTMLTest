@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap');
+
+body {
+    max-width: 768px;
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(#f9bda3, #e99370);
+    padding: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+@media (max-width:767px) {
+    body {
+        max-width: 540px;
+    }
+}
+
+@media (max-width:539px) {
+    body {
+        max-width: none;
+    }
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div {
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-size: 14px;
+    border-left: 1px solid #f2b8a1;
+    
+}
+
+.menu div:hover {
+    background: #e7936e;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    color: #e99370;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    color: #e99370;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    background: #1e1d26;
+    color: #cd8468;
+    padding: 5px;
+    border: 2px solid #cd8468;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.avatar {
+    position: relative;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+
+.society {
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.society a{
+    padding: 10px;
+}
+
+.hello {
+    background: #17161d;
+    text-align: center;
+    padding: 25px;
+}
+
+.hello p {
+    color: #3f3d4e;
+    text-transform: uppercase;
+}
+
+.hello span {
+    color: white;
+}
+
+.hello button {
+    padding: 5px;
+}
+
+.about {
+    background: #24232d;
+    color: #55545d;
+    display: flex;
+    padding: 25px;
+}
+
+.about span {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 10px;
+    background: #24232d;
+    border-bottom: 1px solid #4b4a54;
+    border-top: 1px solid #4b4a54;
+}
+
+.portfolio p {
+    text-transform: uppercase;
+    color: #535067;
+}
+
+.portfolio button {
+    color: white;
+    background: #4b4a54;
+    border: #24232d;
+}
+
+.portfolio button:hover {
+    color: #1b1b1b;
+    background: #eb9f7f;
+    border: #24232d;
+}
+
+.imgList {
+    margin: 25px 0;
+}
+
+.contact {
+    background: #24232d;
+    text-align: center;
+    padding: 25px 50px;
+}
+
+.contact p {
+    text-transform: uppercase;
+    color: #535067;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+input {
+    padding: 5px;
+    background: #24232d;
+    color: #5c5b64;
+    border: 1px solid #5c5b64;
+    color: #5c5b64;
+    border-radius: 5px;
+}
+
+textarea {
+    background: #24232d;
+    color: #5c5b64;
+    border: 1px solid #5c5b64;
+    color: #5c5b64;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form button {
+    color: #1b1b1b;
+    background: #eb9f7f;
+    border: #24232d;
+}
+
+.footerInfo {
+    background: #17161d;
+    padding: 25px;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.footerInfo p {
+    color: #4a4951;
+}
+
+.designedBy {
+    flex: 0 1 50%;
+    margin: 10px;
+    text-align: right;
+}
+
+.imagesFrom {
+    flex: 0 1 50%;
+    margin: 10px;
+    text-align: left;
+}
+
+/* .avatar {
+    width: 100%;
+}
+
+
+.logo a, .menu div a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.imageContainer {
+    position: relative;
+    margin: 0;
+}
+
+.society {
+    position: absolute;
+    top: 300px;
+    right: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.society a {
+    border-radius: 20px;
+    padding: 5px; 
+    margin: 5px;
+}
+
+.hello {
+    background: #17161d;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.hello h1 {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    color: #e89472;
+}
+
+.hello p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #535067;
+    line-height: 25px;
+}
+
+.hello p  span{
+    color: white;
+}
+
+.btn {
+    border: 3px solid #e89472;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+
+.hello span a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    background: #17161d;
+    color: #e89472;
+    text-transform: uppercase;
+}
+
+.hello .btn:hover {
+    background: #1e1d26;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+    background: #24232d;
+}
+
+.info h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    color: #e89472;
+    margin-bottom: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.info div {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c5b64;
+}
+
+.info div span{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.info button {
+    margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #e89472;
+    text-transform: uppercase;
+    background: #24232d;
+    border: 2px solid #e89472;
+    border-radius: 3px;
+}
+
+.links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+} */
