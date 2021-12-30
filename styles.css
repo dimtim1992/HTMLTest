@@ -37,7 +37,6 @@ header {
     padding: 0px 5px;
     font-size: 14px;
     border-left: 1px solid #f2b8a1;
-    
 }
 
 .menu div:hover {
@@ -61,7 +60,7 @@ h3 {
 button {
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
-    background: #1e1d26;
+    background: hsl(247, 13%, 13%);
     color: #cd8468;
     padding: 5px;
     border: 2px solid #cd8468;
@@ -75,6 +74,7 @@ a {
 
 .avatar {
     position: relative;
+    display: flex;
 }
 
 .mainImg {
@@ -92,7 +92,13 @@ a {
 }
 
 .society a{
-    padding: 10px;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin: 2px;
+    border: 2px solid #cd8468;;
+    border-radius: 50%;
 }
 
 .hello {
@@ -225,124 +231,21 @@ form button {
     text-align: left;
 }
 
-/* .avatar {
-    width: 100%;
+.exampleFirst {
+    font-size: 14px;
 }
 
-
-.logo a, .menu div a {
-    color: white;
-    text-decoration: none;
-}
-
-
-.imageContainer {
-    position: relative;
-    margin: 0;
-}
-
-.society {
-    position: absolute;
-    top: 300px;
-    right: 270px;
+.container {
+    width: 100px;
     display: flex;
-    align-items: center;
+    align-items: space-between;
+    border: 1px solid black;
 }
 
-.society a {
-    border-radius: 20px;
-    padding: 5px; 
-    margin: 5px;
-}
-
-.hello {
-    background: #17161d;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-    padding-bottom: 30px;
-}
-
-.hello h1 {
-    font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 1px;
-    color: #e89472;
-}
-
-.hello p {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #535067;
-    line-height: 25px;
-}
-
-.hello p  span{
-    color: white;
-}
-
-.btn {
-    border: 3px solid #e89472;
-    border-radius: 5px;
-    text-transform: uppercase;
-    padding: 8px;
+.container div {
+    flex-basis: 50px;
+    width: 40px;
+    border: 1px solid red;
 }
 
 
-.hello span a{
-    font-family: 'Fjalla One', sans-serif;
-    text-decoration: none;
-    background: #17161d;
-    color: #e89472;
-    text-transform: uppercase;
-}
-
-.hello .btn:hover {
-    background: #1e1d26;
-}
-
-.info {
-    display: flex;
-    padding: 20px;
-    background: #24232d;
-}
-
-.info h2 {
-    font-family: 'Fjalla One', sans-serif;
-    text-transform: uppercase;
-    color: #e89472;
-    margin-bottom: 5px;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.info div {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #5c5b64;
-}
-
-.info div span{
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.info button {
-    margin-top: 10px;
-    font-family: 'Fjalla One', sans-serif;
-    color: #e89472;
-    text-transform: uppercase;
-    background: #24232d;
-    border: 2px solid #e89472;
-    border-radius: 3px;
-}
-
-.links {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    color: white;
-    margin-top: 10px;
-}
-
-.links a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-} */
